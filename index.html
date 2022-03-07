@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
@@ -18,17 +17,17 @@
         <nav id="speci" class="nav flex-column flex-sm-row container">
             <a class="flex-sm-fill text-sm-end nav-link col-sm-2" href="https://www.sayna.io">Home</a>
             <a class="flex-sm-fill text-sm-end nav-link col-sm-2" href="https://www.sayna.io">Features</a>
-            <a id="sayni" class="flex-sm-fill text-sm-center nav-link col-sm-4" href="https://www.sayna.io"><img id="sayna" src="./assets/img/SAYNA_Horizontal_-_Blanc.png" style="width: 200px;height: 36px;" alt=""></a>
+            <a id="sayni" class="flex-sm-fill text-sm-center nav-link col-sm-4" href="https://www.sayna.io"><img id="sayna" src="./assets/img/SAYNA_Horizontal_-_Blanc.png" style="width: 200px;height: 36px;" alt="Logo_SAYNA"></a>
             <a id="sayno" class="flex-sm-fill text-sm-center nav-link col-sm-4" href="https://www.sayna.io">Get it now</a>
         </nav>
         <div class="container bg-dark pt-5">
             <div class="row text-center text-white">
                 <p id="promo">Promote your <b>New App !</b></p>
                 <h6>NEW SOFTWARE IN THE APP STORE</h6>
-                <p>
+                <p id="proma">
                     Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum<br> id ligula porta felis euismod semper.
                 </p>
-                <p class="buy"><input type="button" onclick="alert('Désolé, le stock est épuisé!')" value="Buy Now"></p>
+                <p id="promi" class="buy"><input type="button" onclick="alert('Désolé, le stock est épuisé!')" value="Buy Now"></p>
             </div>
         </div>
         <div class="container bg-dark text-center">
@@ -43,42 +42,42 @@
         <div class="row pt-5 pb-3 text-center bg-light">
             <figure class="col">
                 <a href="https://www.sayna.io">
-                    <img src="./assets/img/social_icon1.png" width="41" height="41" alt="twiter">
+                    <img class="img-fluid" src="./assets/img/social_icon1.png" alt="twiter">
                 </a>
             </figure>
             <figure class="col">
                 <a href="https://www.sayna.io">
-                    <img src="./assets/img/social_icon2.png" width="41" height="41" alt="facebook">
+                    <img class="img-fluid" src="./assets/img/social_icon2.png" alt="facebook">
                 </a>
             </figure>
             <figure class="col">
                 <a href="https://www.sayna.io">
-                    <img src="./assets/img/social_icon3.png" width="41" height="41" alt="google">
+                    <img class="img-fluid" src="./assets/img/social_icon3.png" alt="google">
                 </a>
             </figure>
             <figure class="col">
                 <a href="https://www.sayna.io">
-                    <img src="./assets/img/social_icon4.png" width="41" height="41" alt="pinterest">
+                    <img class="img-fluid" src="./assets/img/social_icon4.png" alt="pinterest">
                 </a>
             </figure>
             <figure class="col">
                 <a href="https://www.sayna.io">
-                    <img src="./assets/img/social_icon5.png" width="41" height="41" alt="mundu">
+                    <img class="img-fluid" src="./assets/img/social_icon5.png" alt="mundu">
                 </a>
             </figure>
             <figure class="col">
                 <a href="https://www.sayna.io">
-                    <img src="./assets/img/social_icon6.png" width="41" height="41" alt="vimeo">
+                    <img class="img-fluid" src="./assets/img/social_icon6.png" alt="vimeo">
                 </a>
             </figure>
             <figure class="col">
                 <a href="https://www.sayna.io">
-                    <img src="./assets/img/social_icon7.png" width="41" height="41" alt="tempo">
+                    <img class="img-fluid" src="./assets/img/social_icon7.png" alt="tempo">
                 </a>
             </figure>
             <figure class="col">
                 <a href="https://www.sayna.io">
-                    <img src="./assets/img/social_icon8.png" width="41" height="41" alt="tsyhay">
+                    <img class="img-fluid" src="./assets/img/social_icon8.png" alt="tsyhay">
                 </a>
             </figure>
         </div>
@@ -88,49 +87,60 @@
 
         <!--Section check-->
 
-        <div class="row">
-            <p id="check">Check Our <b>New App .</b></p>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Donec sed</p>
-            <p>odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        <div id="one" class="container pt-5">
+            <div class="text-center">
+                <p id="check">Check Our <b>New App .</b></p>
+                <p class="mb-1">Aenean lacinia bibendum nulla sed consectetur. Donec sed</p>
+                <p>odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+            <div class="row pt-5 pb-5 justify-content-center align-items-center">
+                <div class="col-3 ">
+                    <p class="h6"><img src="assets\img\icon_28px_1.png" alt="apple"><b>&emsp;Awesomeness</b></p>
+                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+                    <p class="h6"><img src="assets\img\icon_28px_2.png" alt="windows"><b>&emsp;Awesomeness</b></p>
+                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+                    <p class="h6"><img src="assets\img\icon_28px_3.png" alt="tasse_café"><b>&emsp;Awesomeness</b></p>
+                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+                </div>
+                <div class="col-2 text-center">
+                    <img class="img-fluid" src="assets\img\image_190px_1.png" alt="iphone">
+                    <img id="logo" class="img-fluid" src="assets/img/logo.png" alt="play">
+                </div>
+                <div class="col-3 text-end align-items-center">
+                    <p class="h6"><b>Awesomeness&emsp;</b><img src="assets\img\icon_28px_4.png" alt="android"></p>
+                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+                    <p class="h6"><b>Awesomeness&emsp;</b><img src="assets\img\icon_28px_5.png" alt="flêche"></p>
+                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+                    <p class="h6"><b>Awesomeness&emsp;</b><img src="assets\img\icon_28px_6.png" alt="master"></p>
+                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="row p-5 justify-content-center">
-            <div class="col-sm-4 align-self-center">
-                <div>
-                    <img src="./assets/img/icon_28px_1.png" alt="apple">
-                    <span>Awesomeness</span>
-                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
-                </div>
-                <div>
-                    <img src="./assets/img/icon_28px_2.png" alt="windows">
-                    <span>Awesomeness</span>
-                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
-                </div>
-                <div>
-                    <img src="./assets/img/icon_28px_3.png" alt="café">
-                    <span>Awesomeness</span>
-                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
-                </div>
+        <div id="two" class="container">
+            <div class="text-center">
+                <p id="check">Check Our <b>New App .</b></p>
+                <p class="mb-1">Aenean lacinia bibendum nulla sed consectetur. Donec sed</p>
+                <p>odio dui. Lorem ipsum dolor sit amet,<br> consectetur adipiscing</p>
             </div>
-            <div class="col-sm-4  text-center">
-                <img class="img-fluid mx-auto d-block" src="./assets/img/image_190px_1.png" alt="smartphone">
-                <img id="logo" src="./assets/img/logo.png" alt="play">
-            </div>
-            <div class="col-sm-4 align-self-center">
-                <div>
-                    <span>Awesomeness</span>
-                    <img src="./assets/img/icon_28px_4.png" alt="android">
-                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+            <div class="col justify-content-center align-items-center">
+                <div class="pt-3 text-center align-items-center">
+                    <p class="h6 text-start"><img src="assets\img\icon_28px_1.png" alt="apple"><b>&emsp;Awesomeness</b></p>
+                    <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p class="h6 text-start"><img src="assets\img\icon_28px_2.png" alt="windows"><b>&emsp;Pro Concept</b></p>
+                    <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p class="h6 text-start"><img id="img" src="assets\img\cafe.png" alt="café"><b>&emsp;Colourfull</b></p>
+                    <p>Aenean lacinia bibendum nulla sed consectetur.</p>
                 </div>
-                <div>
-                    <span>Awesomeness</span>
-                    <img src="./assets/img/icon_28px_5.png" alt="flêche">
-                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+                <div class="text-center">
+                    <img class="img-fluid" src="assets\img\iphone.png" alt="iphone">
                 </div>
-                <div>
-                    <span>Awesomeness</span>
-                    <img src="./assets/img/icon_28px_6.png" alt="master">
-                    <p>Aenean lacinia bibendum<br>nulla sed consectetur.</p>
+                <div class="pt-3 text-center align-items-center">
+                    <p class="h6 text-start"><img src="assets\img\icon_28px_4.png" alt="android"><b>&emsp;Skills</b></p>
+                    <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p class="h6 text-start"><img src="assets\img\icon_28px_5.png" alt="flêche"><b>&emsp;Responsive</b></p>
+                    <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p class="h6 text-start"><img src="assets\img\icon_28px_6.png" alt="master"><b>&emsp;Tested</b></p>
+                    <p class="mb-0 pb-5">Aenean lacinia bibendum nulla sed consectetur.</p>
                 </div>
             </div>
         </div>
@@ -139,7 +149,8 @@
 
         <div class="row pt-sm-5 text-center bg-dark text-white">
             <figure class="pt-4"><img src="./assets/img/avatar_91px_1.png" alt="moon"></figure>
-            <h6 class="text-white">Nullam quis risus eget urna mollis ornare vel eu leo.<br> Nullam id dolor id nibh ultricies.</h6>
+            <h6 id="three" class="text-white">Nullam quis risus eget urna mollis ornare vel eu leo.<br> Nullam id dolor id nibh ultricies.</h6>
+            <h6 id="four" class="text-white">Nullam quis risus eget urna mollis ornare<br> vel eu leo. Nullam id dolor id nibh<br> ultricies.</h6>
             <h6>-JOHN DO</h6>
         </div>
 
@@ -151,19 +162,19 @@
 
         <div class="row pb-5 bg-light justify-content-center">
             <figure class="col-sm-3">
-                <img src="./assets/img/image_185px_1.jpg" alt="smartphone">
+                <img class="img-fluid" src="./assets/img/image_185px_1.jpg" alt="smartphone">
                 <figcaption class="text-sm-start">
                     <h6 class="pt-2">Screenshot 1</h6>
                 </figcaption>
             </figure>
             <figure class="col-sm-3">
-                <img src="./assets/img/image_185px_2.jpg" alt="smartphone">
+                <img class="img-fluid" src="./assets/img/image_185px_2.jpg" alt="smartphone">
                 <figcaption class="text-sm-start">
                     <h6 class="pt-2">Screenshot 2</h6>
                 </figcaption>
             </figure>
-            <figure class="col-sm-3">
-                <img src="./assets/img/image_185px_3.jpg" alt="smartphone">
+            <figure id="onee" class="col-sm-3">
+                <img class="img-fluid" src="./assets/img/image_185px_3.jpg" alt="smartphone">
                 <figcaption class="text-sm-start">
                     <h6 class="pt-2">Screenshot 3</h6>
                 </figcaption>
@@ -172,14 +183,17 @@
 
         <!--Section litmus-->
 
-        <div class="row pt-5 pb-5 justify-content-center">
-            <div class="col-4">
-                <img class="img-fluid mx-auto d-block" src="./assets/img/Composant_1_2.png" alt="ordi">
+        <div class="row pt-5 pb-5 justify-content-center align-items-center">
+            <div class="col-auto">
+                <img class="img-fluid text-center" src="assets\img\Composant_1_2.png" alt="ordi">
             </div>
-            <div class="col-4">
-                <h1>Litmus Tested .</h1>
-                <p>
+            <div class="col-auto">
+                <p class="subti">Litmus <b>Tested</b></p>
+                <p id="five">
                     Aenean lacinia bibendum nulla sed<br> consectetur. Donec sed odio dui. Lorem<br> ipsum dolor sit amet, consectetur<br> adipiscing elit. Aenean eu leo quam.
+                </p>
+                <p id="fivo">
+                    Aenean lacinia bibendum nulla sed consectetur.<br> Donec sed odio dui. Lorem ipsum dolor sit amet,<br> consectetur adipiscing
                 </p>
                 <p class="buy"><input type="button" onclick="window.location.href = 'https://www.sayna.io';" value="See it here"></p>
             </div>
@@ -187,18 +201,40 @@
 
         <!--Section responsive-->
 
-        <div class="row pt-5 pb-5 justify-content-center">
-            <div class="col-4">
-                <h1>100% Responsive .</h1>
-                <p>
+        <div id="seven" class="row pt-5 pb-5 justify-content-center align-items-center">
+            <div class="col-auto">
+                <p class="subti">100% <b>Responsive</b></p>
+                <p id="six">
                     Donec sed odio dui. Donec id elit non<br> mi porta gravida at eget metus.<br> Vestibulum id ligula porta felis euismod<br> semper. Integer posuere erat a ante<br> venenatis dapibus posuere velit aliquet.<br> Cras mattis consectetur
                     purus sit amet<br> fermentum. Nullam quis risus eget urna<br> mollis ornare vel eu leo. Maecenas<br> faucibus mollis interdum.
                 </p>
+                <p id="sixo">
+                    Donec sed odio dui. Donec id elit non mi porta<br> gravida at eget metus. Vestibulum id ligula porta felis<br> euismod semper. Integer posuere erat a ante<br> venenatis dapibus posuere velit aliquet. Cras mattis<br> consectetur purus
+                    sit amet fermentum. Nullam quis<br> risus eget urna mollis ornare vel eu leo. Maecenas<br> faucibus mollis interdum.
+                </p>
                 <p class="buy"><input type="button" onclick="window.location.href = 'https://www.sayna.io';" value="Visit Website"></p>
             </div>
-            <div class="col-4">
-                <img class="img-fluid mx-auto d-block" src="./assets/img/image_300px_2.png " alt="smartphone">
+            <div class="col-auto">
+                <img src="assets\img\Layer_255.png" alt="smartphone">
             </div>
+        </div>
+        <div id="seveno" class="row pt-5 justify-content-center align-items-center">
+            <div class="col-auto">
+                <img src="assets\img\Layer_255.png" alt="smartphone">
+            </div>
+            <div class="col-auto">
+                <h1>100% Responsive .</h1>
+                <p id="six">
+                    Donec sed odio dui. Donec id elit non<br> mi porta gravida at eget metus.<br> Vestibulum id ligula porta felis euismod<br> semper. Integer posuere erat a ante<br> venenatis dapibus posuere velit aliquet.<br> Cras mattis consectetur
+                    purus sit amet<br> fermentum. Nullam quis risus eget urna<br> mollis ornare vel eu leo. Maecenas<br> faucibus mollis interdum.
+                </p>
+                <p id="sixo">
+                    Donec sed odio dui. Donec id elit non mi porta<br> gravida at eget metus. Vestibulum id ligula porta felis<br> euismod semper. Integer posuere erat a ante<br> venenatis dapibus posuere velit aliquet. Cras mattis<br> consectetur purus
+                    sit amet fermentum. Nullam quis<br> risus eget urna mollis ornare vel eu leo. Maecenas<br> faucibus mollis interdum.
+                </p>
+                <p class="buy"><input type="button" onclick="window.location.href = 'https://www.sayna.io';" value="Visit Website"></p>
+            </div>
+
         </div>
 
     </main>
@@ -207,30 +243,36 @@
 
         <!--Section info-->
 
-        <div class="row pt-5 pb-5 justify-content-center bg-light">
-            <div class="col-4">
-                <img src="./assets/img/SAYNA_Horizontal_-_Noir.png " style="width: 250px;height: 45px;" alt="sayna">
-                <p>
+        <div class="row pt-5 justify-content-center align-items-center bg-light">
+            <div class="col-auto">
+                <img id="sayna" class="img-fluid" src="./assets/img/SAYNA_Horizontal_-_Noir.png" style="width: 200px;height: 36px;" alt="Logo_SAYNA">
+                <p id="eight" class="pt-3">
                     Donec sed odio dui. Donec id elit non mi<br> porta gravida at eget metus. Vestibulum id<br> ligula porta felis euismod semper. Nullam<br> quis risus eget urna.
                 </p>
+                <p id="eighto" class="pt-3">
+                    Donec sed odio dui. Donec id elit non<br> mi porta gravida at eget metus.<br> Vestibulum id ligula porta felis<br> euismod semper. Nullam quis risus eget urna.
+                </p>
             </div>
-            <div class="col-2">
+            <div class="col-auto">
                 <h6><strong>INFO</strong></h6>
-                <p>
+                <p class="pt-3">
                     Website<br> Features<br> Appstore<br> Unsubscribe
                 </p>
             </div>
-            <div class="col-4">
+            <div class="col-auto">
                 <h6><strong>CONTACT</strong></h6>
-                <p>
+                <p id="nine">
                     SAYNA SARL<br>Business Center 2ème étage à gauche<br>Tanjombato 101 Antananarivo NIF:5002<br>997 537 stat:85497 11 2018 010389<br>Madagasikara
+                </p>
+                <p id="nineo">
+                    SAYNA SARL<br>Business Center 2ème étage à gauche Tanjombato<br> 101 Antananarivo NIF:5 002 997 537<br> stat:85497 11 2018 010389<br>Madagasikara
                 </p>
             </div>
         </div>
 
         <!--Section copyright-->
 
-        <div class="row">
+        <div class="row pt-3">
             <p class="col">© Copyright Sayna 2016 - All Rights Reserved</p>
             <div class="col">
                 <div class="container">
@@ -254,6 +296,8 @@
 
     </footer>
 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

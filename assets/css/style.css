@@ -5,8 +5,6 @@ body {
     margin: auto;
     font-size: 0.85rem;
     text-align: center;
-    /*font-family: Open Sans, Arial, sans-serif;
-    font-family: Helvetica, Arial, sans-serif, 'Raleway';*/
     font-family: Raleway, Arial, sans-serif;
 }
 
@@ -47,12 +45,32 @@ header>nav.nav>a.nav-link {
     color: #fff;
 }
 
-p {
-    margin-bottom: 0.35rem;
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#promo,
+#proma,
+#promi {
+    margin-bottom: 5.35rem;
 }
 
 #promo {
     font-size: 2rem;
+}
+
+@media (max-width: 576px) {
+    #promo {
+        font-size: 1.3rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 281px) {
+    .row.text-center.text-white h6 {
+        font-size: 0.8rem;
+    }
 }
 
 h6 {
@@ -82,6 +100,10 @@ header>div.container.bg-dark.text-center>figure {
 
 /*main*/
 
+main.container {
+    overflow: hidden;
+}
+
 
 /*Section media*/
 
@@ -100,7 +122,6 @@ main>div.row.pt-5.pb-3.text-center.bg-light>figure.col {
 }
 
 main>div.row.pt-5.pb-3.text-center.bg-light {
-    /*flex-direction: row !important;*/
     flex-wrap: nowrap !important;
 }
 
@@ -123,8 +144,61 @@ main.container>div.row.bg-light>h6 {
     padding: 3rem 0 1.5rem;
 }
 
+#one .row .col-3,
+#one .row .col-2 {
+    padding: 0;
+}
+
 #logo {
-    margin-top: -350px;
+    margin-top: -200%;
+}
+
+#img {
+    width: 28px;
+    height: 28px;
+}
+
+.h6.text-start {
+    padding-left: 25vw;
+}
+
+@media (min-width: 767.99px) {
+    #two {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #one {
+        display: none;
+    }
+}
+
+
+/*Section avatar*/
+
+@media (min-width: 767.99px) {
+    #four {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    main .row.pt-sm-5.text-center.bg-dark.text-white h6 {
+        font-size: 1rem;
+    }
+    #three {
+        display: none;
+    }
+}
+
+@media (max-width: 361px) {
+    main .row.pt-sm-5.text-center.bg-dark.text-white h6 {
+        font-size: 0.75rem;
+    }
+    #three {
+        display: none;
+    }
 }
 
 
@@ -144,31 +218,118 @@ main>div.row.pb-5.bg-light>p {
     padding-left: 7.5rem;
 }
 
+@media (max-width: 767.98px) {
+    #onee {
+        display: none;
+    }
+}
+
 
 /*Section Litmus*/
 
-main>div.row.pt-5.pb-5.justify-content-center>div.col-4>img {}
+.subti {
+    font-size: 1.5rem;
+}
 
-@media (max-width: 575.98px) {
-    main>div.row.pt-5.pb-5.justify-content-center {
-        flex-direction: column !important;
-        text-align: center;
+@media (min-width: 767.99px) {
+    #fivo {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #fivo {
+        font-size: 0.66rem;
+    }
+    #five {
+        display: none;
+    }
+}
+
+
+/*Section responsive*/
+
+@media (min-width: 767.99px) {
+    #sixo {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #sixo {
+        font-size: 0.60rem;
+    }
+    #six {
+        display: none;
+    }
+}
+
+@media (min-width: 767.99px) {
+    #seveno {
+        display: none;
+    }
+}
+
+#seveno.row.pt-5 justify-content-center align-items-center {
+    padding-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+    #seven {
+        display: none;
     }
 }
 
 
 /*footer*/
 
+footer.container {
+    overflow: hidden;
+}
+
 
 /*Section info*/
 
-@media (max-width: 575.98px) {
-    main>div.row.pt-5.pb-5.justify-content-center.bg-light {
+@media (min-width: 767.99px) {
+    footer.container>div.row.pt-5.justify-content-center.align-items-center.bg-light {
+        display: row !important;
+    }
+    #eighto,
+    #nineo {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    footer.container>div.row.pt-5.justify-content-center.align-items-center.bg-light {
         flex-direction: column !important;
         text-align: center;
     }
+    #eight,
+    #nine {
+        display: none;
+    }
+}
+
+footer.container>div.row.pt-5.justify-content-center.align-items-center.bg-light>div.col-auto>h6 {
+    padding-bottom: 0;
 }
 
 footer>div.row>div.col>h6 {
     color: #000;
+}
+
+
+/*Section copyright*/
+
+@media (min-width: 767.99px) {
+    footer.container>div.row.pt-3 {
+        flex-direction: row !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    footer.container>div.row.pt-3 {
+        flex-direction: column !important;
+    }
 }
